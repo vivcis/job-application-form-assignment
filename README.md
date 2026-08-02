@@ -18,8 +18,8 @@ A web-based job application form built with HTML, CSS, PHP, and MySQL. Part of t
 git clone https://github.com/YOUR_USERNAME/job-application-form.git
 cd job-application-form
 
-# Start everything
-docker compose up -d
+# Build and start everything
+docker compose up -d --build
 
 # Open in browser
 open http://localhost:8080
@@ -81,6 +81,7 @@ job-application-form/
 ├── success.html          # Success page after submission
 ├── saveRecord.php        # PHP backend (form processing + DB insert)
 ├── schema.sql            # MySQL database schema
+├── Dockerfile            # PHP + MySQLi extension
 ├── docker-compose.yml    # Docker Compose configuration
 ├── uploads/              # Resume uploads directory
 │   └── .gitkeep

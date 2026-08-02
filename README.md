@@ -15,7 +15,7 @@ A web-based job application form built with HTML, CSS, PHP, and MySQL. Part of t
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/job-application-form.git
+git clone https://github.com/vivcis/job-application-form.git
 cd job-application-form
 
 # Build and start everything
